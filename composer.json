@@ -1,32 +1,25 @@
 {
-    "name": "laravelium/sitemap",
+    "name": "lutomski/laravel-sitemap",
     "description": "Laravelium Sitemap package for Laravel.",
     "homepage": "https://laravelium.com",
-    "keywords": ["laravelium", "laravel", "php", "sitemap", "generator", "xml", "html", "google-news"],
+    "keywords": ["laravelium", "laravel", "laravel9", "php", "sitemap", "generator", "xml", "html", "google-news"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Rumen Damyanov",
-            "email": "r@alfamatter.com",
-            "role": "Developer",
-            "homepage": "https://darumen.com"
+            "name": "Damian Lutomski",
+            "role": "Developer"
         }
     ],
-    "support": {
-        "issues": "https://github.com/Laravelium/laravel-sitemap/issues",
-        "source": "https://github.com/Laravelium/laravel-sitemap",
-        "wiki": "https://github.com/Laravelium/laravel-sitemap/wiki"
-    },
     "require": {
-        "php": ">=7.3",
-        "illuminate/support": "^8.0",
-        "illuminate/filesystem": "^8.0"
+        "php": ">=8.0",
+        "illuminate/support": "^9.0",
+        "illuminate/filesystem": "^9.0"
     },
     "require-dev": {
-        "laravel/framework": "^8.0",
-        "phpunit/phpunit": "^9.3",
-        "orchestra/testbench-core": "^6.0",
-        "php-coveralls/php-coveralls" : "^2.2"
+        "laravel/framework": "9.0",
+        "phpunit/phpunit": "^9.5.10",
+        "orchestra/testbench-core": "^7.0",
+        "php-coveralls/php-coveralls" : "^2.5"
     },
     "autoload": {
         "psr-0": {
