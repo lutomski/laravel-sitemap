@@ -1,4 +1,4 @@
-### **The package was created only because the official one was not compatible with laravel 9.**
+### **The package was created only because the official one was not compatible with laravel 9/10.**
 
 #### Official package: https://github.com/Laravelium/laravel-sitemap
 
@@ -11,6 +11,11 @@ composer require lutomski/laravel-sitemap
 ```
 
 *or add the following to your `composer.json` file :*
+
+#### For Laravel 10
+```json
+"lutomski/laravel-sitemap": "^10.*"
+```
 
 #### For Laravel 9
 ```json
